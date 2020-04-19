@@ -1,5 +1,12 @@
 /*
-~Codermehraj@gmail.com~SUST_SWE_19
+UVa 264 ~ Count on Cantor
+
+1/1 1/2 1/3 1/4 1/5 . . .
+2/1 2/2 2/3 2/4
+3/1 3/2 3/3
+4/1 4/2
+5/1
+
 >>>  num = input and n= sum of 1 to n such that (sum<num) strictly less
 >>>  e.g for num=27 , sum = 21 (1+2+3+4+5+6) which brings n = 6
 >>>  if n=even y = num - n and x = n+2-y
@@ -35,3 +42,5 @@ int main()
 	}
 	return 0;
 }
+
+// ~Codermehraj@gmail.com~SUST_SWE_19
