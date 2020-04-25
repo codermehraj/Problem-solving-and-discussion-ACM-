@@ -1,6 +1,7 @@
 /* ~ CoderMehraJ ~ */
 /*
     Problem Name : Arithmetic Progression
+    CF Round 224 Div 2 : problem C
 */
 #include <bits/stdc++.h>
 using namespace std;
