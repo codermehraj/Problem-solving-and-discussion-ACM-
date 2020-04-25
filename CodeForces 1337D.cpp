@@ -1,6 +1,6 @@
 /*
 	Codeforces Round #635 (Div. 2) Problem D
-	Codeforces Round #635 (Div. 2) Problem B
+	Codeforces Round #635 (Div. 1) Problem B
 	Problem Name: Xenia and Colorful Gems
 	Problem Link: https://codeforces.com/contest/1337/problem/D
 	
