@@ -1,3 +1,4 @@
+/*
 Problem Link >>  https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=226&page=show_problem&problem=2900
 
 Elementary Area calculation Algorithm >> https://www.mathopenref.com/coordpolygonarea.html
@@ -11,7 +12,8 @@ If so I just took that on a final array of my point structure.
 Then just normally implement the rest.
 
 Just be care full while calculating the slope…
-
+*/
+/* ~ CoderMehraJ ~ */
 #include <bits/stdc++.h>
 using namespace std;
 
