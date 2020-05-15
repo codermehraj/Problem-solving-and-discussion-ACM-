@@ -58,15 +58,15 @@ void bfs(){
                 //cout<<nz<<" "<<nx<<" "<<ny<<" ";
                 //show(lvl[nz][nx][ny]);
                 then.sett(nx,ny,nz);
-				nxt_node.push(then);
+		nxt_node.push(then);
             }
         }
 	}
 }
 
 int main(){
-    //ios::sync_with_stdio(0);
-    //cin.tie(0);
+    ios::sync_with_stdio(0);
+    cin.tie(0);
     while(1){
     	cin>>Z>>X>>Y;
     	if(Z==0 || X==0 || Y==0) break;
