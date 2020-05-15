@@ -4,6 +4,8 @@ using namespace std;
 
 #define show(x) cout << #x << " = " << x << '\n';
 /*
+	Problem Name -> Dungeon Master 
+	Problem Link -> https://onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=473
 	x= number of rows
 	y= number of collums
 	z= number of slices
