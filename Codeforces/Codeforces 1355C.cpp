@@ -18,9 +18,9 @@ int main(){
     			   = most possible value of x - least possible value of x + 1
     			   = min ( b,(x+y)-b ) - max ( a,(x+y)-c ) + 1
     		most possible value of x = current sum of x,y - minimum y
-    								 = (x+y) - b [which is <=b]
+    					= (x+y) - b [which is <=b]
     		least posible value of x = current sum of x,y - maximum y
-    								 = (x+y) - c [which is >=a]
+    					= (x+y) - c [which is >=a]
     		~~ Here min and max is used to keep the value unoverloaded ~~
     		countC = numbre of possible z(s) for given x+y
     			   = most possible value of z - least possible value of z + 1
