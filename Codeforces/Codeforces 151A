@@ -1,0 +1,23 @@
+/* ~CoderMehRaj~ */
+#include <bits/stdc++.h>
+using namespace std;
+
+#define show(x) cout << #x << " = " << x << '\n';
+
+int n,k,l,c,d,p,nl,np,ans=0;
+
+bool ok(int x){
+	if(x*nl*n>k*l) return 0;
+	if(x*np*n>p) return 0;
+	if(n*x>c*d) return 0;
+	return 1;
+}
+	 
+int main()
+{
+	cin>>n>>k>>l>>c>>d>>p>>nl>>np;
+	while(ok(++ans));
+	cout<<ans-1<<endl;
+	return 0;
+}
+// fixed<<setprecision(1)
