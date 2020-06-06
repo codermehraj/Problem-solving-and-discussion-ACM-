@@ -1,0 +1,24 @@
+/* ~CoderMehRaj~ */
+#include <bits/stdc++.h>
+using namespace std;
+
+#define show(x) cout << #x << " = " << x << '\n';
+
+int main()
+{
+	int ans,t,f,n,k,temp;
+	cin>>n>>k;
+	cin>>f>>t;
+	if(t>k) ans=f-(t-k);
+	else ans=f;
+	n--;
+	while(n--){
+		cin>>f>>t;
+		if(t>k) temp=f-(t-k);
+		else temp=f;
+		ans=max(temp,ans);
+	}
+	cout<<ans<<endl;
+	return 0;
+}
+// fixed<<setprecision(1)
