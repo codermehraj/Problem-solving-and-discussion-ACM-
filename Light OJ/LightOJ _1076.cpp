@@ -19,16 +19,16 @@ int n, m;
 
 bool valid(int x)
 {
-    int need = 1, hehe = 0;
+    int need = 1, used = 0;
     for (auto a_vessel : milks)
     {
         if (a_vessel > x)
             return 0;
-        if (hehe + a_vessel <= x)
-            hehe += a_vessel;
+        if (used + a_vessel <= x)
+            used += a_vessel;
         else
         {
-            hehe = a_vessel;
+            used = a_vessel;
             need++;
         }
     }
