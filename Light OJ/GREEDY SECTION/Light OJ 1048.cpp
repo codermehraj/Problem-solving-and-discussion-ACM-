@@ -1,5 +1,7 @@
 
 /*
+    	>>> Light OJ 1048 : Conquering Keokradong
+	
  	 n = number of campsite where you can stay
  	 k = number of nights that you need to stay
  	 Terget = Mimimizing the maximum walk length 
@@ -34,12 +36,17 @@ void printans(int x){
 		left--;
 		if(found == 0 || csum + lol > x || (k)-found==left) {
 			found++;
-			if(found>1) cout << csum << endl;
+			if(found>1) {
+				//cout << csum << endl;
+				printf("%d\n",csum);
+			}
 			csum = 0;
 		}
 		csum += lol;
 	}
-	cout << csum << endl;
+	//cout << csum << endl;
+	printf("%d\n",csum);
+
 }
 
 int main()
@@ -48,9 +55,12 @@ int main()
  	cin >> t;
  	while(t--){
  		mx = mxx = 0;
- 		cin >> n >> k;
+ 		//cin >> n >> k;
+ 		scanf("%d%d",&n,&k);
  		for(int i=0;i<=n;i++){
- 			cin >> x; v.push_back(x);
+ 			//cin >> x;
+ 			scanf("%d",&x);
+ 			v.push_back(x);
  			mx = max( mx , x );
  			mxx += x;
  		}
@@ -66,7 +76,8 @@ int main()
  				lo = mid+1;
  			}
  		}
- 		cout << "Case " << cs++ << ": " << hi << endl;
+ 		//cout << "Case " << cs++ << ": " << hi << endl;
+ 		printf("Case %d: %d\n",cs++,hi);
  		printans(hi);
  		v.clear();
  	}
