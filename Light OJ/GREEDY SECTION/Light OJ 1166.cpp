@@ -17,10 +17,10 @@ using namespace std;
 
 int main()
 {
- 	int t,n,x,ans,temp,a,b,cs=1,p;
+ 	int t,n,ans,temp,a,b,cs=1,p;
  	cin >> t;
  	while(t--){
- 		x = ans = p = 0;
+ 		ans = p = 0;
  		cin >> n;
  		int ar[n+1],mp[n+1];
  		ar[0] = -1;
@@ -35,14 +35,14 @@ int main()
  				b = ar[ar[i]]; // ar[4] = 3 
  				
  				if(mp[i]==ar[i]){
- 					x--; p++;
+ 					p++;
  					temp = ar[i];
  					ar[i] = i;
  					ar[temp] = temp;
  				}
  				
  				else if(a==b){
- 					x--; p+=2;
+ 					p+=2;
  					a = ar[i]; // a = ar[1] = 4 
  					b = mp[i]; // b = mp[1] = 3
  					ar[i] = i;
