@@ -21,7 +21,7 @@ int main()
   while(t--){
  		
     flag = 1;
- 		cin >> n;
+    cin >> n;
  		
     vector< int > mark(n,-1);
  		int ar[n];
